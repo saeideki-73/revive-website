@@ -39,11 +39,43 @@
 </div>
 
 <section style="max-width:1160px;margin:0 auto;padding:0 clamp(20px,5vw,64px) calc(var(--space-8) * 3)">
-  <div class="card blueprint" style="padding:calc(var(--space-8) * 1.5) var(--space-6);text-align:center">
+  <div class="card blueprint" style="padding:0;overflow:hidden">
     <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-    <p class="card-body" style="font-size:14px;margin:0;color:color-mix(in srgb, var(--color-text) 65%, transparent)">No events listed yet.</p>
+    <figure style="margin:0;aspect-ratio:21/9;background:var(--color-neutral-100)">
+      <img src="assets/workshop-technical-sept2026.jpg" alt="REVIVE Technical Workshop" style="width:100%;height:100%;object-fit:contain;display:block" onerror="this.closest('figure').style.display='none'">
+    </figure>
+    <div style="padding:var(--space-6)">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:var(--space-3)">
+        <span class="tag tag-accent">Upcoming workshop</span>
+        <span style="font-size:13px;color:color-mix(in srgb, var(--color-text) 65%, transparent)">23 September · Hartley Suite, University of Southampton</span>
+      </div>
+      <h2 style="font-size:clamp(24px,3vw,30px);margin:0 0 var(--space-3);line-height:1.1">REVIVE Technical Workshop</h2>
+      <p style="font-size:15px;line-height:1.7;color:color-mix(in srgb, var(--color-text) 85%, transparent);margin:0 0 var(--space-4);max-width:75ch">Bringing together researchers and industry to advance assessment, monitoring, and service life extension of infrastructure.</p>
+      <a href="https://www.eventbrite.co.uk/e/revive-technical-workshop-tickets-1992409191526" target="_blank" rel="noopener" class="btn btn-primary blueprint" style="text-decoration:none;margin-bottom:var(--space-4)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>Register on Eventbrite</a>
+      <details>
+        <summary style="cursor:pointer;font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-accent-700);list-style:none;display:inline-flex;align-items:center;gap:6px">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="M9 18l6-6-6-6"></path></svg>
+          Read more
+        </summary>
+        <div style="margin-top:var(--space-4);padding-top:var(--space-4);border-top:1px solid var(--color-divider)">
+          <p style="font-size:15px;line-height:1.7;color:color-mix(in srgb, var(--color-text) 85%, transparent);margin:0 0 var(--space-4);max-width:75ch">Organised by Dr. Mohammad Mehdi Kashani as part of the Horizon Europe MSCA-funded REVIVE project, this day-long technical workshop bridges the gap between academic research and practical infrastructure management. The event features presentations from consortium partners, infrastructure owners, and industry representatives, focusing on the latest developments in vulnerable reinforced concrete infrastructure.</p>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:var(--space-2)">Key topics and discussions include</div>
+          <ul style="margin:0;padding-left:20px;font-size:15px;line-height:1.8;color:color-mix(in srgb, var(--color-text) 85%, transparent)">
+            <li>Non-Destructive Evaluation (NDE) and Structural Health Monitoring (SHM)</li>
+            <li>Artificial Intelligence, Data Analytics, and Digital Twins</li>
+            <li>Infrastructure Asset Management and Service Life Prediction</li>
+          </ul>
+        </div>
+      </details>
+    </div>
   </div>
 </section>
+
+<style>
+details > summary::-webkit-details-marker { display: none; }
+details[open] summary svg { transform: rotate(90deg); }
+details summary svg { transition: transform .15s ease; }
+</style>
 
 <div style="background:var(--color-accent-900);color:var(--color-bg);margin-top:calc(var(--space-8) * 3)">
   <div style="max-width:1160px;margin:0 auto;padding:calc(var(--space-8) * 2) clamp(20px,5vw,64px) var(--space-6);display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:var(--space-8) var(--space-6)">
