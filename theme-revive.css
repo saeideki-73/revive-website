@@ -1,0 +1,46 @@
+/* REVIVE palette — the Industry accent ramp retuned to the greys of the
+   REVIVE logo (#404048) so the site and the mark sit in one family.
+   Loaded after the design system's styles.css, which it overrides. */
+:root {
+  --color-accent: #55555e;
+  --color-accent-2: #62626b;
+
+  --color-accent-100: #e4e4e9;
+  --color-accent-200: #d8d8de;
+  --color-accent-300: #d2d2d8;
+  --color-accent-400: #b5b5bd;
+  --color-accent-500: #96969f;
+  --color-accent-600: #787881;
+  --color-accent-700: #5b5b64;
+  --color-accent-800: #45454e;
+  --color-accent-900: #313139;
+
+  --color-accent-2-100: #e4e4e9;
+  --color-accent-2-200: #d8d8de;
+  --color-accent-2-300: #d2d2d8;
+  --color-accent-2-400: #b5b5bd;
+  --color-accent-2-500: #96969f;
+  --color-accent-2-600: #787881;
+  --color-accent-2-700: #5b5b64;
+  --color-accent-2-800: #45454e;
+  --color-accent-2-900: #313139;
+
+  /* Sampled from the logo artwork — used only where the mark's own green
+     is doing the talking (the REVIVE letters in the strapline). */
+  --color-revive-green: #70c048;
+
+  /* The missing steps in the design system's spacing scale. */
+  --space-5: 17px;
+  --space-7: 23.8px;
+}
+
+/* Filled chips keep a hairline so the plate shape survives on the light ground. */
+.tag-accent,
+.tag-accent-2 {
+  border: 1px solid color-mix(in srgb, var(--color-accent-700) 34%, transparent);
+}
+
+.tag-neutral {
+  background: #e4e4e9;
+  border: 1px solid color-mix(in srgb, var(--color-neutral-800) 28%, transparent);
+}

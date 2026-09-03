@@ -1,6 +1,7 @@
 # REVIVE website — static export
 
 Eight plain HTML pages. No build step, no server-side code: any static web host serves this folder as-is.
+Regenerated 3 September 2026, including the REVIVE logo, the EU emblem and the grey palette.
 
 ## Files
   index.html              Home
@@ -11,8 +12,12 @@ Eight plain HTML pages. No build step, no server-side code: any static web host 
   publications.html       Publications (empty, ready for content)
   consortium.html         Consortium
   contact.html            Contact
-  styles.css              All styling (loads Barlow / Barlow Condensed from Google Fonts)
-  assets/                 Images
+  styles.css              Design-system tokens and components (loads Barlow from Google Fonts)
+  theme-revive.css        The REVIVE grey palette, overriding styles.css
+  site.css                Page resets, header grid, hover states
+  assets/                 Logos and photographs
+
+All three stylesheets are required, in that order.
 
 ## Recommended host: Netlify (free)
 1. Go to app.netlify.com/drop
@@ -20,12 +25,11 @@ Eight plain HTML pages. No build step, no server-side code: any static web host 
 3. The site is live in about 30 seconds on a free HTTPS address, e.g. revive-project.netlify.app.
 4. To use your own domain later: Site settings > Domain management > Add custom domain.
 
-Alternative for long-term institutional hosting (MSCA requires the site stay up for years after the
-project ends): GitHub Pages — create a repository, upload this folder, then Settings > Pages > deploy
-from branch. Also free, no account expiry. Firebase Hosting works the same way via 'firebase deploy'.
+For long-term institutional hosting (MSCA expects the site to stay up for years after the project
+ends): GitHub Pages — create a repository, upload this folder, then Settings > Pages > deploy from
+branch. Also free, with no account expiry. Firebase Hosting works the same way via 'firebase deploy'.
 
-Squarespace and Google Sites cannot host multi-page HTML like this — they only embed one page inside a
-code block. If you must use one of those, ask for the flattened single-page version.
+Squarespace and Google Sites cannot host multi-page HTML like this — see the single-page export.
 
 ## Adding logos
 Drop PNG or SVG files into assets/logos/ using exactly these names. Any file that is missing simply
@@ -53,8 +57,19 @@ leaves an empty framed box — nothing breaks.
 (If you use SVG instead of PNG, change the .png in the <img src="..."> tags to .svg.)
 
 ## Adding photographs
-  assets/concrete-infrastructure.jpg   Home page hero (currently a placeholder photograph — replace it)
+  assets/concrete-infrastructure.jpg   Home page hero (a stand-in photograph — replace it)
   assets/about-photo.jpg               About page figure (not yet present; add the file and it appears)
+
+## Already in place
+  assets/revive-logo.png            Full REVIVE lockup — home and about headers
+  assets/revive-logo-mark.png       Compact version — navigation bar
+  assets/revive-logo-reversed.png   White version — footer
+  assets/eu-funded.png              Funded by the European Union emblem — footer, every page
+
+## Still to fill in
+  - The EU funding disclaimer reads "under Grant Agreement —" with the number blank.
+  - Contact addresses (coordination@revive-msca.eu, info@revive-msca.eu) are placeholders.
+  - Workshops & Events and Publications are intentionally empty shells.
 
 ## Editing text
 Every page is plain HTML — open it in any text editor and edit the words between the tags. The

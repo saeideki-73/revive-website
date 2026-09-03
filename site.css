@@ -1,0 +1,122 @@
+/* Page-level rules the exported pages need: resets, the drawn grid behind
+   each page header, and the hover states the source carries as attributes. */
+body { margin: 0; }
+img { max-width: 100%; }
+a:not(.btn):hover { color: var(--color-accent-900); }
+
+.gridhead { position: relative; isolation: isolate; }
+.gridhead::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, var(--color-divider) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-divider) 1px, transparent 1px);
+  background-size: 48px 48px;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent 90%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent 90%);
+}
+
+  .h1:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h2:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h3:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h4:hover { color:var(--color-accent-300); }
+  .h5:hover { color:var(--color-accent-300); }
+  .h6:hover { color:var(--color-accent-300); }
+  .h7:hover { color:var(--color-accent-300); }
+  .h8:hover { color:var(--color-accent-300); }
+  .h9:hover { color:var(--color-accent-300); }
+  .h10:hover { color:var(--color-accent-300); }
+  .h11:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h12:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h13:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h14:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h15:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h16:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h17:hover { color:var(--color-accent-300); }
+  .h18:hover { color:var(--color-accent-300); }
+  .h19:hover { color:var(--color-accent-300); }
+  .h20:hover { color:var(--color-accent-300); }
+  .h21:hover { color:var(--color-accent-300); }
+  .h22:hover { color:var(--color-accent-300); }
+  .h23:hover { color:var(--color-accent-300); }
+  .h24:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h25:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h26:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h27:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h28:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h29:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h30:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h31:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h32:hover { color:var(--color-accent-300); }
+  .h33:hover { color:var(--color-accent-300); }
+  .h34:hover { color:var(--color-accent-300); }
+  .h35:hover { color:var(--color-accent-300); }
+  .h36:hover { color:var(--color-accent-300); }
+  .h37:hover { color:var(--color-accent-300); }
+  .h38:hover { color:var(--color-accent-300); }
+  .h39:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h40:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h41:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h42:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h43:hover { color:var(--color-accent-300); }
+  .h44:hover { color:var(--color-accent-300); }
+  .h45:hover { color:var(--color-accent-300); }
+  .h46:hover { color:var(--color-accent-300); }
+  .h47:hover { color:var(--color-accent-300); }
+  .h48:hover { color:var(--color-accent-300); }
+  .h49:hover { color:var(--color-accent-300); }
+  .h50:hover { color:var(--color-accent-300); }
+  .h51:hover { color:var(--color-accent-300); }
+  .h52:hover { color:var(--color-accent-300); }
+  .h53:hover { color:var(--color-accent-300); }
+  .h54:hover { color:var(--color-accent-300); }
+  .h55:hover { color:var(--color-accent-300); }
+  .h56:hover { color:var(--color-accent-300); }
+  .h57:hover { color:var(--color-accent-300); }
+  .h58:hover { color:var(--color-accent-300); }
+  .h59:hover { color:var(--color-accent-300); }
+  .h60:hover { color:var(--color-accent-300); }
+  .h61:hover { color:var(--color-accent-300); }
+  .h62:hover { color:var(--color-accent-300); }
+  .h63:hover { color:var(--color-accent-300); }
+  .h64:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h65:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h66:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h67:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h68:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h69:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h70:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h71:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h72:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h73:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h74:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h75:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h76:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h77:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h78:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h79:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h80:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h81:hover { color:var(--color-accent-300); }
+  .h82:hover { color:var(--color-accent-300); }
+  .h83:hover { color:var(--color-accent-300); }
+  .h84:hover { color:var(--color-accent-300); }
+  .h85:hover { color:var(--color-accent-300); }
+  .h86:hover { color:var(--color-accent-300); }
+  .h87:hover { color:var(--color-accent-300); }
+  .h88:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h89:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h90:hover { border-color:var(--color-accent);box-shadow:var(--shadow-md);transform:translateY(-3px); }
+  .h91:hover { color:var(--color-accent-300); }
+  .h92:hover { color:var(--color-accent-300); }
+  .h93:hover { color:var(--color-accent-300); }
+  .h94:hover { color:var(--color-accent-300); }
+  .h95:hover { color:var(--color-accent-300); }
+  .h96:hover { color:var(--color-accent-300); }
+  .h97:hover { color:var(--color-accent-300); }
+
+@media (max-width: 720px) {
+  section[style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
+  div[style*="grid-template-columns:1.3fr"] { grid-template-columns: 1fr !important; }
+}
