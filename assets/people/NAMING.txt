@@ -1,0 +1,19 @@
+Drop speaker photos in this folder using exactly these filenames (.jpg).
+Any missing file simply leaves the photo frame hidden on the event page — nothing breaks.
+
+yannis-ieropoulos.jpg
+mehdi-kashani.jpg
+tim-kersley.jpg
+colin-george.jpg
+chris-mundell.jpg
+william-powrie.jpg
+robert-vollum.jpg
+saba-ghassemi.jpg
+francesca-marsili.jpg
+fabio-di-carlo.jpg
+noemi-friedman.jpg
+andrej-anzlin.jpg
+meisam-jalalvand.jpg
+masood-mohandes.jpg
+
+You can delete this file once the photos are in place.
