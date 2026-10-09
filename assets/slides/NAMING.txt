@@ -1,0 +1,19 @@
+Drop each speaker's slide deck in this folder using exactly these filenames (.pdf).
+Until a file is added, its "Slides" button on the event page will 404 when clicked.
+
+yannis-ieropoulos.pdf
+mehdi-kashani.pdf
+tim-kersley.pdf
+colin-george.pdf
+chris-mundell.pdf
+william-powrie.pdf
+robert-vollum.pdf
+saba-ghassemi.pdf
+francesca-marsili.pdf
+fabio-di-carlo.pdf
+noemi-friedman.pdf
+andrej-anzlin.pdf
+meisam-jalalvand.pdf
+masood-mohandes.pdf
+
+You can delete this file once the slides are in place.
